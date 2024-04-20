@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*-----------------------------page1---------------------------------------------*/
+.background{
+    background-image:url("Hero area image.png");
+    height: 71.2vh;
+    background-size: cover;
+}
+h3{
+    display: inline;
+    color: #FF4B32;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 50.174px;
+    height: 50px;
+    margin-top: -10px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    margin-left: 222px;
+    padding: 47px;
+    font-size: 12px;
+}
+.navi{
+    padding: 15px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+#home{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+            "wdth" 100;
+    color: #FF4B32;
+    padding-left: 40px;
+
+}
+main{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 524px;
+    position: absolute;
+    top: 200px;
+}
+h1{
+    width: 524px;
+    margin-left: 195px;
+    margin-top: -50px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+p{
+    width: 506px;
+    margin-left: 175px;
+    margin-top: 26px;
+    opacity: 0.8;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #FF4B32;
+    width: 128px;
+    height: 43px;
+    margin-top: 30px;
+    margin-left: -208px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+}
+h2{
+    margin-top: 100px;
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6.45px;
+    margin-left: 95px;
+}
+span{
+    display: block;
+    margin-left: 100px;
+    opacity: 0.7;
+    width: 506px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+}
