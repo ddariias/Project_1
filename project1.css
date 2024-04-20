@@ -1,7 +1,9 @@
-
-
-
-
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 /*------------------------Page1-------------------------*/
 .background{
     background-image:url("Hero area image.png");
